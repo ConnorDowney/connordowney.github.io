@@ -5,28 +5,185 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Downey Digital LLC</title>
   <meta name="description" content="Downey Digital LLC — Company and legal pages for Streakz" />
-  <style>body{font-family:system-ui, -apple-system,Segoe UI, Roboto, Arial;max-width:780px;margin:40px auto;padding:0 18px;color:#111}a{color:#0366d6}</style>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #1a1a1a;
+      line-height: 1.6;
+      background: #f8f9fa;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 60px 20px 50px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0 0 8px 0;
+      font-size: 2.5em;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    header .subtitle {
+      margin: 0;
+      font-size: 1.1em;
+      opacity: 0.95;
+      font-weight: 400;
+    }
+    main {
+      background: white;
+      margin: -20px auto 40px;
+      max-width: 860px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 40px;
+    }
+    .company-section {
+      margin-bottom: 40px;
+    }
+    .company-section h2 {
+      color: #667eea;
+      font-size: 1.8em;
+      margin: 0 0 20px 0;
+      font-weight: 600;
+    }
+    .company-section p {
+      margin: 0 0 15px 0;
+      font-size: 1.05em;
+      color: #4a4a4a;
+    }
+    .info-box {
+      background: #f8f9fa;
+      border-left: 4px solid #667eea;
+      padding: 20px 25px;
+      margin: 30px 0;
+      border-radius: 4px;
+    }
+    .info-box p {
+      margin: 0;
+      font-size: 1.05em;
+    }
+    .info-box a {
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .info-box a:hover {
+      text-decoration: underline;
+    }
+    .nav-section {
+      margin-top: 40px;
+    }
+    .nav-section h2 {
+      color: #1a1a1a;
+      font-size: 1.4em;
+      margin: 0 0 20px 0;
+      font-weight: 600;
+    }
+    .nav-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .nav-card {
+      background: #f8f9fa;
+      border: 2px solid #e9ecef;
+      border-radius: 8px;
+      padding: 25px 20px;
+      text-align: center;
+      text-decoration: none;
+      color: #1a1a1a;
+      transition: all 0.2s ease;
+      display: block;
+    }
+    .nav-card:hover {
+      border-color: #667eea;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+    }
+    .nav-card h3 {
+      margin: 0 0 8px 0;
+      font-size: 1.2em;
+      color: #667eea;
+      font-weight: 600;
+    }
+    .nav-card p {
+      margin: 0;
+      font-size: 0.95em;
+      color: #666;
+    }
+    footer {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    footer p {
+      margin: 8px 0;
+      font-size: 0.95em;
+      line-height: 1.8;
+    }
+    footer .legal-text {
+      opacity: 0.9;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2em; }
+      main { padding: 30px 25px; margin: -15px 15px 30px; }
+      .company-section h2 { font-size: 1.5em; }
+      .nav-cards { grid-template-columns: 1fr; }
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Downey Digital LLC</h1>
-    <p>Effective: January 25, 2026</p>
+    <p class="subtitle">Registered Limited Liability Company</p>
   </header>
 
   <main>
-    <p>Downey Digital LLC is a software company that builds consumer mobile applications.</p>
-    <p>Our products include Streakz, a sports picks application that offers free promotional challenges.</p>
-    <p>For questions about our company or products, contact: <a href="mailto:connor@downeydigital.org">connor@downeydigital.org</a></p>
+    <div class="company-section">
+      <h2>Company Information</h2>
+      <p>Downey Digital LLC is a registered limited liability company based in the United States. We specialize in developing and operating consumer mobile applications that deliver engaging user experiences.</p>
+      <p>Our flagship product, Streakz, is a sports picks application that offers users free promotional challenges and interactive sports prediction features. The platform enables users to test their sports knowledge through daily picks and friendly competition.</p>
+      <p>Downey Digital LLC is committed to building high-quality mobile applications with a focus on user engagement, reliability, and innovative features.</p>
+    </div>
 
-    <ul>
-      <li><a href="privacy.html">Privacy Policy</a></li>
-      <li><a href="terms.html">Terms &amp; Conditions</a></li>
-      <li><a href="support.html">Support / Contact</a></li>
-    </ul>
+    <div class="info-box">
+      <p><strong>Contact:</strong> For questions about our company or products, please reach out to <a href="mailto:connor@downeydigital.org">connor@downeydigital.org</a></p>
+    </div>
+
+    <div class="nav-section">
+      <h2>Legal &amp; Support</h2>
+      <div class="nav-cards">
+        <a href="privacy.html" class="nav-card">
+          <h3>Privacy Policy</h3>
+          <p>User data practices</p>
+        </a>
+        <a href="terms.html" class="nav-card">
+          <h3>Terms &amp; Conditions</h3>
+          <p>Usage terms &amp; rules</p>
+        </a>
+        <a href="support.html" class="nav-card">
+          <h3>Support</h3>
+          <p>Contact information</p>
+        </a>
+      </div>
+    </div>
   </main>
 
   <footer>
-    <p>&copy; Downey Digital LLC</p>
+    <p class="legal-text">This website is operated by Downey Digital LLC.</p>
+    <p>&copy; 2026 Downey Digital LLC. All rights reserved.</p>
   </footer>
 </body>
 </html>

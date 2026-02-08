@@ -5,22 +5,143 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Support — Streakz</title>
   <meta name="description" content="Support contact information for Streakz by Downey Digital LLC" />
-  <style>body{font-family:system-ui, -apple-system,Segoe UI, Roboto, Arial;max-width:780px;margin:40px auto;padding:0 18px;color:#111;line-height:1.5}a{color:#0366d6}</style>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #1a1a1a;
+      line-height: 1.6;
+      background: #f8f9fa;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 50px 20px 40px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+      font-weight: 700;
+    }
+    .back-link {
+      display: inline-block;
+      margin: 15px 0 0 0;
+      color: white;
+      text-decoration: none;
+      opacity: 0.9;
+      font-size: 0.95em;
+    }
+    .back-link:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+    main {
+      background: white;
+      margin: -20px auto 40px;
+      max-width: 800px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 40px;
+    }
+    h2 {
+      color: #667eea;
+      font-size: 1.6em;
+      margin: 0 0 25px 0;
+      font-weight: 600;
+    }
+    .contact-box {
+      background: #f8f9fa;
+      border-left: 4px solid #667eea;
+      padding: 25px 30px;
+      margin: 25px 0;
+      border-radius: 4px;
+    }
+    .contact-item {
+      margin: 15px 0;
+      font-size: 1.05em;
+    }
+    .contact-item strong {
+      color: #1a1a1a;
+      font-weight: 600;
+    }
+    .contact-item a {
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .contact-item a:hover {
+      text-decoration: underline;
+    }
+    .info-section {
+      margin: 30px 0;
+    }
+    .info-section p {
+      margin: 15px 0;
+      font-size: 1.05em;
+      color: #4a4a4a;
+    }
+    .info-section a {
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .info-section a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    footer p {
+      margin: 8px 0;
+      font-size: 0.95em;
+      line-height: 1.8;
+    }
+    footer .legal-text {
+      opacity: 0.9;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.8em; }
+      main { padding: 30px 25px; margin: -15px 15px 30px; }
+      h2 { font-size: 1.4em; }
+      .contact-box { padding: 20px 20px; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Support</h1>
-  <p>If you need help with Streakz, contact our support team:</p>
-  <ul>
-    <li><strong>Email:</strong> <a href="mailto:connor@downeydigital.org">connor@downeydigital.org</a></li>
-    <li><strong>Typical response hours:</strong> Mon–Fri, 9:00–17:00 (local time)</li>
-  </ul>
+  <header>
+    <h1>Support</h1>
+    <a href="index.html" class="back-link">← Back to Home</a>
+  </header>
 
-  <p>For privacy questions or legal notices, see the <a href="privacy.html">Privacy Policy</a>. For terms and conditions, see the <a href="terms.html">Terms &amp; Conditions</a>.</p>
+  <main>
+    <h2>Contact Support</h2>
+    <p>If you need help with Streakz or have questions about our products, please reach out to our support team:</p>
 
-  <p>Please include as much detail as possible when contacting support so we can help quickly.</p>
+    <div class="contact-box">
+      <div class="contact-item">
+        <strong>Email:</strong> <a href="mailto:connor@downeydigital.org">connor@downeydigital.org</a>
+      </div>
+      <div class="contact-item">
+        <strong>Business Hours:</strong> Monday – Friday, 9:00 AM – 5:00 PM ET
+      </div>
+    </div>
+
+    <div class="info-section">
+      <p>Please include as much detail as possible when contacting support so we can assist you quickly and effectively.</p>
+      <p>For privacy questions or legal notices, see the <a href="privacy.html">Privacy Policy</a>. For terms and conditions, see the <a href="terms.html">Terms &amp; Conditions</a>.</p>
+    </div>
+  </main>
 
   <footer>
-    <p>Downey Digital LLC</p>
+    <p class="legal-text">This website is operated by Downey Digital LLC.</p>
+    <p>&copy; 2026 Downey Digital LLC. All rights reserved.</p>
   </footer>
 </body>
 </html>
